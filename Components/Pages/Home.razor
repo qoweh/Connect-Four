@@ -2,6 +2,11 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+@* // 이전 버전
+<Board @rendermode="InteractiveServer" /> 
+*@
+<Board @rendermode="InteractiveServer"
+    BoardColor="System.Drawing.Color.Black"
+    Player1Color="System.Drawing.Color.Green"
+    Player2Color="System.Drawing.Color.Purple" 
+/>
